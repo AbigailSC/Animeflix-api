@@ -15,5 +15,3 @@ app.use("/user", userRouter);
 app.listen(PORT, () => {
   console.log("⚡️[server]: Server is running at https://localhost:3000");
 });
-
-// No se olviden de npm run lint y npm run format
