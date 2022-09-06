@@ -1,9 +1,9 @@
-const { Router } = require('express')
+const { Router } = require("express");
 
 // Importar todos los routers;
 
-const router = Router()
+const router = Router();
 
 // Configurar los routers
 
-module.exports = router
+module.exports = router;
