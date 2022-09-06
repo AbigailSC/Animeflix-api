@@ -2,7 +2,6 @@ import express from "express";
 const bodyParser = require("body-parser");
 const morgan = require("morgan");
 const cors = require("cors");
-
 require("./db.js");
 const app = express();
 app.use(
