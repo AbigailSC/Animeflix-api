@@ -3,3 +3,5 @@
 
 # npm test
 # Para la ejecución de los tests antes del commit
+
+npm lint-staged
