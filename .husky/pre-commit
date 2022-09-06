@@ -3,5 +3,4 @@
 
 # npm test
 # Para la ejecución de los tests antes del commit
-npm run format
 npx lint-staged

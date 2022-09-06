@@ -5,7 +5,6 @@ const cors = require("cors");
 
 require("./db.js");
 const app = express();
-
 app.use(
   bodyParser.urlencoded({
     extended: true,

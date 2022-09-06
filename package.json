@@ -19,7 +19,10 @@
     }
   },
   "lint-staged": {
-    "*.(js|ts)": "npm run lint:fix"
+    "*.(js|ts)": [
+      "npm run format",
+      "npm run lint:fix"
+    ]
   },
   "repository": {
     "type": "git",
