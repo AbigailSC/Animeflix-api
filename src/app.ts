@@ -1,4 +1,4 @@
-const express = require("express");
+import express from "express"
 const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
 const morgan = require("morgan");
@@ -6,7 +6,6 @@ const morgan = require("morgan");
 require("./db.js");
 const app = express();
 
-app.name = "databaseanimeflex";
 app.use(
   bodyParser.urlencoded({
     extended: true,
