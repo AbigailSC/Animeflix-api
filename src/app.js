@@ -7,7 +7,6 @@ require("./db.js");
 const app = express();
 
 app.name = 'databaseanimeflex'
-
 app.use(
   bodyParser.urlencoded({
     extended: true,
