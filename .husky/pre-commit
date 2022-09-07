@@ -1,6 +1,3 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
-
-# npm test
-# Para la ejecución de los tests antes del commit
-npx lint-staged
+#!/bin/env sh
+. "$(dirname "$0")/_/husky.sh"
+FORCE_COLOR=0 npx lint-staged
